@@ -5,15 +5,15 @@ import tempfile
 import io
 
 st.set_page_config(
-    page_title="Bisaya Transcriber",
+    page_title="Transcriber",
     page_icon="🎙️",
     layout="centered"
 )
 
-st.title("🎙️ Bisaya Audio Transcriber")
+st.title("🎙️ Transcribe your interviews here")
 st.markdown(
-    "Upload an audio file to transcribe Bisaya/Cebuano speech using OpenAI Whisper. "
-    "Outputs a plain-text transcript and an `.srt` subtitle file."
+    "Upload an audio file to transcribe. "
+    "Outputs a plain-text transcript and a subtitle file."
 )
 
 # ── Sidebar: model & settings ──────────────────────────────────────────────
